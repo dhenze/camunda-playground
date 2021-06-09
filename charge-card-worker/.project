@@ -6,12 +6,24 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+<<<<<<< HEAD
+=======
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+>>>>>>> 904982f1dd6ef8e452aabd3897eb44968eb12c8d
 			<name>org.eclipse.m2e.core.maven2Builder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
+<<<<<<< HEAD
+=======
+		<nature>org.eclipse.jdt.core.javanature</nature>
+>>>>>>> 904982f1dd6ef8e452aabd3897eb44968eb12c8d
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
 	<filteredResources>

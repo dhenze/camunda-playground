@@ -1,0 +1,13 @@
+curl --location --request POST 'http://localhost:8080/engine-rest/process-definition/key/payment-retrieval/start' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+	"variables": {
+		"amount": {
+			"value":4000,
+			"type":"long"
+		},
+		"item": {
+			"value": "Tour BER - Potsdam Hauptbahnhof"
+		}
+	}
+}'
